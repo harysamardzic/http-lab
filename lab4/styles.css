@@ -1,0 +1,29 @@
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #6200ea;
+    color: #fff;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
